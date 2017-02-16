@@ -2001,6 +2001,78 @@ CMakeFiles/filler.dir/main.c.o.provides: CMakeFiles/filler.dir/main.c.o.requires
 CMakeFiles/filler.dir/main.c.o.provides.build: CMakeFiles/filler.dir/main.c.o
 
 
+CMakeFiles/filler.dir/parse_map.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/parse_map.c.o: ../parse_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/p/ppanchen/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/filler.dir/parse_map.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/parse_map.c.o   -c /nfs/2016/p/ppanchen/projects/filler/parse_map.c
+
+CMakeFiles/filler.dir/parse_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/parse_map.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/p/ppanchen/projects/filler/parse_map.c > CMakeFiles/filler.dir/parse_map.c.i
+
+CMakeFiles/filler.dir/parse_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/parse_map.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/p/ppanchen/projects/filler/parse_map.c -o CMakeFiles/filler.dir/parse_map.c.s
+
+CMakeFiles/filler.dir/parse_map.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/parse_map.c.o.requires
+
+CMakeFiles/filler.dir/parse_map.c.o.provides: CMakeFiles/filler.dir/parse_map.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/parse_map.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/parse_map.c.o.provides
+
+CMakeFiles/filler.dir/parse_map.c.o.provides.build: CMakeFiles/filler.dir/parse_map.c.o
+
+
+CMakeFiles/filler.dir/paste_piece.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/paste_piece.c.o: ../paste_piece.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/p/ppanchen/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/filler.dir/paste_piece.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/paste_piece.c.o   -c /nfs/2016/p/ppanchen/projects/filler/paste_piece.c
+
+CMakeFiles/filler.dir/paste_piece.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/paste_piece.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/p/ppanchen/projects/filler/paste_piece.c > CMakeFiles/filler.dir/paste_piece.c.i
+
+CMakeFiles/filler.dir/paste_piece.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/paste_piece.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/p/ppanchen/projects/filler/paste_piece.c -o CMakeFiles/filler.dir/paste_piece.c.s
+
+CMakeFiles/filler.dir/paste_piece.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/paste_piece.c.o.requires
+
+CMakeFiles/filler.dir/paste_piece.c.o.provides: CMakeFiles/filler.dir/paste_piece.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/paste_piece.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/paste_piece.c.o.provides
+
+CMakeFiles/filler.dir/paste_piece.c.o.provides.build: CMakeFiles/filler.dir/paste_piece.c.o
+
+
+CMakeFiles/filler.dir/tools.c.o: CMakeFiles/filler.dir/flags.make
+CMakeFiles/filler.dir/tools.c.o: ../tools.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/p/ppanchen/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/filler.dir/tools.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filler.dir/tools.c.o   -c /nfs/2016/p/ppanchen/projects/filler/tools.c
+
+CMakeFiles/filler.dir/tools.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filler.dir/tools.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/p/ppanchen/projects/filler/tools.c > CMakeFiles/filler.dir/tools.c.i
+
+CMakeFiles/filler.dir/tools.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filler.dir/tools.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/p/ppanchen/projects/filler/tools.c -o CMakeFiles/filler.dir/tools.c.s
+
+CMakeFiles/filler.dir/tools.c.o.requires:
+
+.PHONY : CMakeFiles/filler.dir/tools.c.o.requires
+
+CMakeFiles/filler.dir/tools.c.o.provides: CMakeFiles/filler.dir/tools.c.o.requires
+	$(MAKE) -f CMakeFiles/filler.dir/build.make CMakeFiles/filler.dir/tools.c.o.provides.build
+.PHONY : CMakeFiles/filler.dir/tools.c.o.provides
+
+CMakeFiles/filler.dir/tools.c.o.provides.build: CMakeFiles/filler.dir/tools.c.o
+
+
 # Object files for target filler
 filler_OBJECTS = \
 "CMakeFiles/filler.dir/libft/ft_printf/Handlers/flags_handler.c.o" \
@@ -2083,7 +2155,10 @@ filler_OBJECTS = \
 "CMakeFiles/filler.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/filler.dir/libft/ft_words.c.o" \
 "CMakeFiles/filler.dir/libft/get_next_line.c.o" \
-"CMakeFiles/filler.dir/main.c.o"
+"CMakeFiles/filler.dir/main.c.o" \
+"CMakeFiles/filler.dir/parse_map.c.o" \
+"CMakeFiles/filler.dir/paste_piece.c.o" \
+"CMakeFiles/filler.dir/tools.c.o"
 
 # External object files for target filler
 filler_EXTERNAL_OBJECTS =
@@ -2169,9 +2244,12 @@ filler: CMakeFiles/filler.dir/libft/ft_toupper.c.o
 filler: CMakeFiles/filler.dir/libft/ft_words.c.o
 filler: CMakeFiles/filler.dir/libft/get_next_line.c.o
 filler: CMakeFiles/filler.dir/main.c.o
+filler: CMakeFiles/filler.dir/parse_map.c.o
+filler: CMakeFiles/filler.dir/paste_piece.c.o
+filler: CMakeFiles/filler.dir/tools.c.o
 filler: CMakeFiles/filler.dir/build.make
 filler: CMakeFiles/filler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/p/ppanchen/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking C executable filler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/p/ppanchen/projects/filler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking C executable filler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2260,6 +2338,9 @@ CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/libft/ft_toupper.c.o.requi
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/libft/ft_words.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/libft/get_next_line.c.o.requires
 CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/main.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/parse_map.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/paste_piece.c.o.requires
+CMakeFiles/filler.dir/requires: CMakeFiles/filler.dir/tools.c.o.requires
 
 .PHONY : CMakeFiles/filler.dir/requires
 

@@ -80,6 +80,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/filler.dir/libft/ft_words.c.o"
   "CMakeFiles/filler.dir/libft/get_next_line.c.o"
   "CMakeFiles/filler.dir/main.c.o"
+  "CMakeFiles/filler.dir/parse_map.c.o"
+  "CMakeFiles/filler.dir/paste_piece.c.o"
+  "CMakeFiles/filler.dir/tools.c.o"
   "filler.pdb"
   "filler"
 )

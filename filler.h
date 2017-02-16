@@ -24,8 +24,11 @@ typedef	struct 	s_config
 	char 		**map;
 	int 		p_col;
 	int 		p_raw;
-	char 		*piece;
+	char 		**piece;
 }				t_config;
 
-
+void			parse_map(t_config **conf);
+void			parse_piece(t_config ** conf);
+int				paste_piece(t_config conf);
+int				try_paste(t_config conf, int coor[]);
 #endif

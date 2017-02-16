@@ -337,6 +337,15 @@
 		<Unit filename="/nfs/2016/p/ppanchen/projects/filler/main.c">
 			<Option target="filler"/>
 		</Unit>
+		<Unit filename="/nfs/2016/p/ppanchen/projects/filler/parse_map.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/nfs/2016/p/ppanchen/projects/filler/paste_piece.c">
+			<Option target="filler"/>
+		</Unit>
+		<Unit filename="/nfs/2016/p/ppanchen/projects/filler/tools.c">
+			<Option target="filler"/>
+		</Unit>
 		<Unit filename="/nfs/2016/p/ppanchen/projects/filler/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -87,6 +87,6 @@ set(SOURCE_FILES
     libft/get_next_line.c
     libft/get_next_line.h
     libft/libft.h main.c
-        filler.h)
+        filler.h parse_map.c paste_piece.c tools.c)
 
 add_executable(filler ${SOURCE_FILES})
