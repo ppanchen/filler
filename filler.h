@@ -36,14 +36,25 @@ typedef	struct	s_config
 **      3|4
 ** blocked: is enemy cut off other world
 */
-typedef struct	s_tactic
+//typedef struct	s_tactic
+//{
+//	int 		en_pos;
+//	int			blocked;
+//}				t_tactic;
+
+typedef	struct 		s_coord
 {
-	int 		en_pos;
-	int			blocked;
-}				t_tactic;
+	int 			x;
+	int 			y;
+	int 			weight;
+	struct s_coord	*next;
+}					t_coord;
 
 void			parse_map(t_config **conf);
 void			parse_piece(t_config **conf);
 int				paste_piece(t_config conf);
 int				try_paste(t_config conf, int coor[]);
+t_coord			*lst_add(int coor[], int weight, t_coord *start);
+t_coord			*find_bigger(t_coord *start);
+
 #endif
